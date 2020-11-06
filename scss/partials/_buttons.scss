@@ -1,0 +1,16 @@
+/* BUTTONS*/
+
+.button {
+    display: inline-block;
+    background-color: $color-accent;
+    border: solid 3px $color-accent;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: rgba(0,0,0,0.2);
+        color: $color-accent;
+    }
+}
