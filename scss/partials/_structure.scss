@@ -33,22 +33,7 @@
 
 }
 
-/*SITE NAV*/
 
-.site-nav {
-    
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: flex;
-    }
-    a {
-        display: inline-block;
-        padding: 1em;
-    }
-
-}
 
 section {
     padding: 4em 0;
@@ -89,3 +74,8 @@ section {
     padding: 0 0 .5em 0;
     margin: 1em auto 3em auto;
 }
+
+.hide-visually {
+    position: absolute;
+    top: -9999px;
+    left: -9999px; }
